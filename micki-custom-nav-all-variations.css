@@ -124,7 +124,6 @@ Different nav variations
     }
 }
 
-
 /*Home*/
 
 .ms-nav-bar.ms-nav-bar-home {
@@ -491,31 +490,15 @@ Different nav variations
     background: transparent;
 }
 
+.ms-nav-bar-shop .ms-nav-dropdown-list {
+    background-color: transparent;
+}
+
 @media screen and (max-width: 991px) {
 
     .ms-nav-bar.ms-nav-bar-shop {
         background: #ededed;
     }
-}
-
-
-/*------
-Breakpoints
-------*/
-
-/*Tablet*/
-@media screen and (max-width: 991px) {
-
-}
-
-/*Mobile landscape*/
-@media screen and (max-width: 767px) {
-    
-}
-
-/*Mobile portrait*/
-@media screen and (max-width: 479px) {
-
 }
 
 
@@ -528,7 +511,6 @@ Styles for burger button and cart
 .ms-basket-button-mobile {
     box-sizing: content-box;
 }
-
 
 /*Burger button*/
 
