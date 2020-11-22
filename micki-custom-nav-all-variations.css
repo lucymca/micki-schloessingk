@@ -1,0 +1,568 @@
+/*------
+Nav bar transition and height for active nav
+------*/
+
+.ms-nav-bar {
+    transition: height 0.2s, background-color 0.2s;
+}
+
+.ms-nav-bar.ms-nav-bar-active {
+    height: 100vh;
+    transition: height 0.2s, background-color 0.2s;
+}
+
+/*------
+Different nav variations
+------*/
+
+/*Basic*/
+
+.ms-nav-bar {
+    background: #ededed;
+}
+
+.ms-nav-bar-logo-light {
+    display: none;   
+}
+
+.ms-nav-bar-logo-dark {
+    display: inline-block;
+}
+
+.ms-nav-link {
+    color: #000000;
+}
+
+.ms-nav-link-underline {
+    background-color: #000000;
+}
+
+.ms-nav-dropdown-list {
+    background-color: hsla(0, 0%, 92.9%, 0.9);
+}
+
+.ms-nav-dropdown-label {
+    color: #000000;
+}
+
+.ms-nav-dropdown-label-underline {
+    background-color: #000000;
+}
+
+.ms-nav-dropdown-link {
+    color: #000000;
+}
+
+.ms-nav-dropdown-link-underline {
+    background-color: #000000;
+}
+
+.ms-nav-dropdown-link-icon-light {
+    display: none;
+}
+
+.ms-nav-dropdown-link-icon-dark {
+    display: inline-block;
+}
+
+.ms-nav-basket-text {
+    color: #000000;
+}
+
+.ms-nav-basket-quantity {
+    color: #000000;
+}
+
+@media screen and (max-width: 991px) {
+
+    .ms-nav-bar {
+        background: #ededed;
+    }
+
+    .ms-nav-bar-logo-light {
+        display: none;   
+    }
+
+    .ms-nav-bar-logo-dark {
+        display: inline-block;
+    }
+
+    .ms-nav-link {
+        color: #000000;
+    }
+
+    .ms-nav-link-underline {
+        background-color: #000000;
+    }
+
+    .ms-nav-dropdown-list {
+        background-color: hsla(0, 0%, 92.9%, 0.9);
+    }
+
+    .ms-nav-dropdown-label {
+        color: #000000;
+    }
+
+    .ms-nav-dropdown-label-underline {
+        background-color: #000000;
+    }
+
+    .ms-nav-dropdown-link {
+        color: #000000;
+    }
+
+    .ms-nav-dropdown-link-underline {
+        background-color: #000000;
+    }
+
+    .ms-nav-dropdown-link-icon-light {
+        display: none;
+    }
+
+    .ms-nav-dropdown-link-icon-dark {
+        display: inline-block;
+    }
+}
+
+
+/*Home*/
+
+.ms-nav-bar.ms-nav-bar-home {
+    background: transparent;
+}
+
+.ms-nav-bar-home .ms-nav-bar-logo-light {
+    display: inline-block;   
+}
+
+.ms-nav-bar-home .ms-nav-bar-logo-dark {
+    display: none;
+}
+
+.ms-nav-bar-home .ms-nav-link {
+    color: #ffffff;
+}
+
+.ms-nav-bar-home .ms-nav-link-underline {
+    background-color: #ffffff;
+}
+
+.ms-nav-bar-home .ms-nav-dropdown-list {
+    background-color: transparent;
+}
+
+.ms-nav-bar-home .ms-nav-dropdown-label {
+    color: #ffffff;
+}
+
+.ms-nav-bar-home .ms-nav-dropdown-label-underline {
+    background-color: #ffffff;
+}
+
+.ms-nav-bar-home .ms-nav-dropdown-link {
+    color: #ffffff;
+}
+
+.ms-nav-bar-home .ms-nav-dropdown-link-underline {
+    background-color: #ffffff;
+}
+
+.ms-nav-bar-home .ms-nav-dropdown-link-icon-light {
+    display: inline-block;
+}
+
+.ms-nav-bar-home .ms-nav-dropdown-link-icon-dark {
+    display: none;
+}
+
+.ms-nav-bar-home .ms-nav-basket-text {
+    color: #ffffff;
+}
+
+.ms-nav-bar-home .ms-nav-basket-quantity {
+    color: #ffffff;
+}
+
+@media screen and (max-width: 991px) {
+
+
+    .ms-nav-bar.ms-nav-bar-home {
+        background: transparent;
+    }
+
+    .ms-nav-bar.ms-nav-bar-home.ms-nav-bar-active {
+        background: #ededed;
+    }
+
+    .ms-nav-bar.ms-nav-bar-home .ms-nav-bar-logo-light {
+        display: inline-block;  
+    }
+
+    .ms-nav-bar.ms-nav-bar-home .ms-nav-bar-logo-dark {
+        display: none;
+    }
+
+    .ms-nav-bar.ms-nav-bar-home .ms-nav-link {
+        color: #000000;
+    }
+
+    .ms-nav-bar.ms-nav-bar-home .ms-nav-link-underline {
+        background-color: #000000;
+    }
+
+    .ms-nav-bar.ms-nav-bar-home .ms-nav-dropdown-list {
+
+    }
+
+    .ms-nav-bar.ms-nav-bar-home .ms-nav-dropdown-label {
+        color: #000000;
+    }
+
+    .ms-nav-bar.ms-nav-bar-home .ms-nav-dropdown-label-underline {
+        background-color: #000000;
+    }
+
+    .ms-nav-bar.ms-nav-bar-home .ms-nav-dropdown-link {
+        color: #000000;
+    }
+
+    .ms-nav-bar.ms-nav-bar-home .ms-nav-dropdown-link-underline {
+        background-color: #000000;
+    }
+
+    .ms-nav-bar.ms-nav-bar-home .ms-nav-dropdown-link-icon-light {
+        display: none;
+    }
+
+    .ms-nav-bar.ms-nav-bar-home .ms-nav-dropdown-link-icon-dark {
+        display: inline-block;
+    }
+
+
+    .ms-nav-bar.ms-nav-bar-home .ms-nav-basket-quantity-mobile {
+        color: #ffffff;
+        transition: color 200ms;
+    }
+
+    .ms-nav-bar.ms-nav-bar-home.ms-nav-active .ms-nav-basket-quantity-mobile {
+        color: #000000;
+        transition: color 200ms;
+    }
+
+    .ms-nav-bar.ms-nav-bar-home .ms-nav-mobile-basket-icon-light {
+        display: inline-block;
+    }
+
+    .ms-nav-bar.ms-nav-bar-home .ms-nav-mobile-basket-icon-dark {
+        display: none;
+    }
+
+    .ms-nav-bar.ms-nav-bar-home .ms-nav-bar-burger-button .ms-nav-bar-burger-line {
+        background: #ededed;
+    }
+
+    .ms-nav-bar.ms-nav-bar-home.ms-nav-bar-active .ms-nav-bar-burger-button .ms-nav-bar-burger-line {
+        background: #000000;
+    }
+}
+
+/*Text on left*/
+
+.ms-nav-bar.ms-nav-bar-tol {
+    background: linear-gradient(-90deg, hsla(0, 0%, 92.9%, 0) 50%, hsla(0, 0%, 92.9%, 0.9) 0);
+}
+
+.ms-nav-bar-tol .ms-nav-bar-logo-light {
+    display: none;   
+}
+
+.ms-nav-bar-tol .ms-nav-bar-logo-dark {
+    display: inline-block;
+}
+
+.ms-nav-bar-tol .ms-nav-link {
+    color: #ffffff;
+}
+
+.ms-nav-bar-tol .ms-nav-link-underline {
+    background-color: #ffffff;
+}
+
+.ms-nav-bar-tol .ms-nav-dropdown-list {
+    background-color: transparent;
+}
+
+.ms-nav-bar-tol .ms-nav-dropdown-label {
+    color: #ffffff;
+}
+
+.ms-nav-bar-tol .ms-nav-dropdown-label-underline {
+    background-color: #ffffff;
+}
+
+.ms-nav-bar-tol .ms-nav-dropdown-link {
+    color: #ffffff;
+}
+
+.ms-nav-bar-tol .ms-nav-dropdown-link-underline {
+    background-color: #ffffff;
+}
+
+.ms-nav-bar-tol .ms-nav-dropdown-link-icon-light {
+    display: inline-block;
+}
+
+.ms-nav-bar-tol .ms-nav-dropdown-link-icon-dark {
+    display: none;
+}
+
+.ms-nav-bar-tol .ms-nav-basket-text {
+    color: #ffffff;
+}
+
+.ms-nav-bar-tol .ms-nav-basket-quantity {
+    color: #ffffff;
+}
+
+@media screen and (max-width: 991px) {
+
+    .ms-nav-bar.ms-nav-bar-tol {
+        background: #ededed;
+    }
+
+    .ms-nav-bar-tol .ms-nav-bar-logo-light {
+        display: none;   
+    }
+
+    .ms-nav-bar-tol .ms-nav-bar-logo-dark {
+        display: inline-block;
+    }
+
+    .ms-nav-bar-tol .ms-nav-link {
+        color: #000000;
+    }
+
+    .ms-nav-bar-tol .ms-nav-link-underline {
+        background-color: #000000;
+    }
+
+    .ms-nav-bar-tol .ms-nav-dropdown-list {
+        background-color: hsla(0, 0%, 92.9%, 0.9);
+    }
+
+    .ms-nav-bar-tol .ms-nav-dropdown-label {
+        color: #000000;
+    }
+
+    .ms-nav-bar-tol .ms-nav-dropdown-label-underline {
+        background-color: #000000;
+    }
+
+    .ms-nav-bar-tol .ms-nav-dropdown-link {
+        color: #000000;
+    }
+
+    .ms-nav-bar-tol .ms-nav-dropdown-link-underline {
+        background-color: #000000;
+    }
+
+    .ms-nav-bar-tol .ms-nav-dropdown-link-icon-light {
+        display: none;
+    }
+
+    .ms-nav-bar-tol .ms-nav-dropdown-link-icon-dark {
+        display: inline-block;
+    }
+}
+
+/*Text on right*/
+
+.ms-nav-bar.ms-nav-bar-tor {
+    background: linear-gradient(90deg, hsla(0, 0%, 92.9%, 0) 50%, hsla(0, 0%, 92.9%, 0.9) 0);
+}
+
+.ms-nav-bar-tor .ms-nav-bar-logo-light {
+    display: none;   
+}
+
+.ms-nav-bar-tor .ms-nav-bar-logo-dark {
+    display: inline-block;
+}
+
+.ms-nav-bar-tor .ms-nav-link {
+    color: #000000;
+}
+
+.ms-nav-bar-tor .ms-nav-link-underline {
+    background-color: #000000;
+}
+
+.ms-nav-bar-tor .ms-nav-dropdown-list {
+    background-color: hsla(0, 0%, 92.9%, 0.9);
+}
+
+.ms-nav-bar-tor .ms-nav-dropdown-label {
+    color: #000000;
+}
+
+.ms-nav-bar-tor .ms-nav-dropdown-label-underline {
+    background-color: #000000;
+}
+
+.ms-nav-bar-tor .ms-nav-dropdown-link {
+    color: #000000;
+}
+
+.ms-nav-bar-tor .ms-nav-dropdown-link-underline {
+    background-color: #000000;
+}
+
+.ms-nav-bar-tor .ms-nav-dropdown-link-icon-light {
+    display: none;
+}
+
+.ms-nav-bar-tor .ms-nav-dropdown-link-icon-dark {
+    display: inline-block;
+}
+
+.ms-nav-bar-tor .ms-nav-basket-text {
+    color: #000000;
+}
+
+.ms-nav-bar-tor .ms-nav-basket-quantity {
+    color: #000000;
+}
+
+@media screen and (max-width: 991px) {
+
+    .ms-nav-bar.ms-nav-bar-tor {
+        background: #ededed;
+    }
+
+    .ms-nav-bar-tor .ms-nav-bar-logo-light {
+        display: none;   
+    }
+
+    .ms-nav-bar-tor .ms-nav-bar-logo-dark {
+        display: inline-block;
+    }
+
+    .ms-nav-bar-tor .ms-nav-link {
+        color: #000000;
+    }
+
+    .ms-nav-bar-tor .ms-nav-link-underline {
+        background-color: #000000;
+    }
+
+    .ms-nav-bar-tor .ms-nav-dropdown-list {
+        background-color: hsla(0, 0%, 92.9%, 0.9);
+    }
+
+    .ms-nav-bar-tor .ms-nav-dropdown-label {
+        color: #000000;
+    }
+
+    .ms-nav-bar-tor .ms-nav-dropdown-label-underline {
+        background-color: #000000;
+    }
+
+    .ms-nav-bar-tor .ms-nav-dropdown-link {
+        color: #000000;
+    }
+
+    .ms-nav-bar-tor .ms-nav-dropdown-link-underline {
+        background-color: #000000;
+    }
+
+    .ms-nav-bar-tor .ms-nav-dropdown-link-icon-light {
+        display: none;
+    }
+
+    .ms-nav-bar-tor .ms-nav-dropdown-link-icon-dark {
+        display: inline-block;
+    }
+}
+
+
+/*Shop*/
+
+.ms-nav-bar.ms-nav-bar-shop {
+    background: transparent;
+}
+
+@media screen and (max-width: 991px) {
+
+    .ms-nav-bar.ms-nav-bar-shop {
+        background: #ededed;
+    }
+}
+
+
+/*------
+Breakpoints
+------*/
+
+/*Tablet*/
+@media screen and (max-width: 991px) {
+
+}
+
+/*Mobile landscape*/
+@media screen and (max-width: 767px) {
+    
+}
+
+/*Mobile portrait*/
+@media screen and (max-width: 479px) {
+
+}
+
+
+/*------
+Styles for burger button and cart
+------*/
+
+/*Basket button and number*/
+
+.ms-basket-button-mobile {
+    box-sizing: content-box;
+}
+
+
+/*Burger button*/
+
+.ms-nav-bar-burger-button {
+    box-sizing: content-box;
+}
+
+.ms-nav-bar-burger-button .ms-nav-bar-burger-line {
+    background: #000000;
+}
+
+.ms-nav-bar-burger-button .ms-nav-bar-burger-line-1 {
+    top: 8px;
+    transition: top 200ms 200ms, transform 200ms, background-color 200ms;
+}
+.ms-nav-bar-burger-button .ms-nav-bar-burger-line-2 {
+    top: 16px;
+    opacity: 1;
+    transition: opacity 0ms 200ms, background-color 200ms;
+}
+.ms-nav-bar-burger-button .ms-nav-bar-burger-line-3 {
+    bottom: 8px;
+    transition: bottom 200ms 200ms, transform 200ms, background-color 200ms;
+}
+.ms-nav-bar-burger-button.ms-nav-bar-burger-button-active .ms-nav-bar-burger-line-1 {
+    top: 16px;
+    transform: rotate(45deg) scaleX(1.2);
+    transition: top 200ms, transform 200ms 200ms, background-color 200ms;
+}
+.ms-nav-bar-burger-button.ms-nav-bar-burger-button-active .ms-nav-bar-burger-line-2 {
+    opacity: 0;
+}
+.ms-nav-bar-burger-button.ms-nav-bar-burger-button-active .ms-nav-bar-burger-line-3 {
+    bottom: 16px;
+    transform: rotate(-45deg) scaleX(1.2);
+    transition: bottom 200ms, transform 200ms 200ms, background-color 200ms;
+}
