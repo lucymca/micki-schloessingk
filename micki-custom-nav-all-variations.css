@@ -243,7 +243,7 @@ Different nav variations
         transition: color 200ms;
     }
 
-    .ms-nav-bar.ms-nav-bar-home.ms-nav-active .ms-nav-basket-quantity-mobile {
+    .ms-nav-bar.ms-nav-bar-home.ms-nav-bar-active .ms-nav-basket-quantity-mobile {
         color: #000000;
         transition: color 200ms;
     }
